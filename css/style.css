@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.all-wrapper{
+    background-image: url(../img/main-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 90px;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 80px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo-blue{
+    color: #00B1E9;
+}
+
+.menu{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 80px;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-list-item{
+    margin-right: 50px;
+}
+
+.menu-list-item:last-child{
+    margin-right: 0;
+}
+
+.menu-list-link{
+    transition: all .6s;
+}
+
+.menu-list-link:hover{
+    color: #07AF91;
+    border-bottom: 1px solid #07AF91;
+}
+
+.button{
+    background: #07AF91;
+    border-radius: 10px;
+    padding: 18px 25px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #07AF91;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.button:hover{
+    background: #fff;
+    border: 1px solid #07AF91;
+    color: #07AF91;
+}
+
+.main-wrapper{
+    padding-top: 140px;
+    padding-bottom: 300px;
+    color: #fff;
+}
+
+.main-content{
+    min-width: 780px;
+}
+
+.main-title{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.title-blue{
+    background: #07AF91;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.main-text{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+
+.main-button{
+    padding: 20px 33px;
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    border: 1px solid #016CA8;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main-button:hover{
+    color: #016CA8;
+}
+
+.subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    color: #1178B2;
+    margin-bottom: 110px;
+}
+
+.we-top{
+    display: flex;
+    margin-bottom: 185px;
+}
+
+.top-info{
+    margin-right: 45px;
+}
+
+.top-title, .bottom-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1178B2;
+    margin-bottom: 25px;
+}
+
+.top-text, .bottom-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.top-button, .bottom-button{
+    display: inline-block;
+}
+
+.we-bottom{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.bottom-banner{
+    margin-right: 112px;
+}
+
+.for{
+    margin-bottom: 100px;
+}
+
+.for-title{
+    margin-bottom: 35px;
+}
+
+.cards-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards-item{
+    width: 30%;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+}
+
+.item-wrapper{
+    padding: 35px 30px;
+    text-align: center;
+}
+
+.item-number{
+    font-weight: 800;
+    font-size: 80px;
+    color: rgba(17, 120, 178, 0.5);
+    margin-bottom: 40px;
+}
+
+.item-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.item-text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.consult{
+    background-image: url(../img/cosult-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.consult-wrapper{
+    padding: 135px;
+    color: #fff;
+    text-align: center;
+}
+
+.cosults-info{
+    background: #07AF91;
+    border-radius: 3px;
+}
+
+.info-text{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.consult-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.consult-button{
+    padding: 25px 37px;
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    transition: all .6s;
+}
+
+.consult-button:hover{
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    color: #fff;
+}
+
+
+
