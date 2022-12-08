@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Разработка и продвижение сайтов в Беларуси | xDev.by</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -170,22 +171,22 @@
             <h2 class="works-title subtitle">Какие услуги мы оказываем?</h2>
 
             <div class="works-tabs">
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-site-tab" data-bs-toggle="pill" data-bs-target="#pills-site" type="button" role="tab" aria-controls="pills-site" aria-selected="true">Сайты</button>
+              <ul class="nav nav-pills mb-3 works-tab-lsit" id="pills-tab" role="tablist">
+                <li class="nav-item works-list-item" role="presentation">
+                  <button class="nav-link works-tab-button active" id="pills-site-tab" data-bs-toggle="pill" data-bs-target="#pills-site" type="button" role="tab" aria-controls="pills-site" aria-selected="true">Сайты</button>
                 </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-design" aria-selected="false">Дизайн</button>
+                <li class="nav-item works-list-item" role="presentation">
+                  <button class="nav-link works-tab-button" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-design" aria-selected="false">Дизайн</button>
                 </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-context-tab" data-bs-toggle="pill" data-bs-target="#pills-context" type="button" role="tab" aria-controls="pills-context" aria-selected="false">Контекст</button>
+                <li class="nav-item works-list-item" role="presentation">
+                  <button class="nav-link works-tab-button" id="pills-context-tab" data-bs-toggle="pill" data-bs-target="#pills-context" type="button" role="tab" aria-controls="pills-context" aria-selected="false">Контекст</button>
                 </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-target-tab" data-bs-toggle="pill" data-bs-target="#pills-target" type="button" role="tab" aria-controls="pills-target" aria-selected="false">Таргет</button>
+                <li class="nav-item works-list-item" role="presentation">
+                  <button class="nav-link works-tab-button" id="pills-target-tab" data-bs-toggle="pill" data-bs-target="#pills-target" type="button" role="tab" aria-controls="pills-target" aria-selected="false">Таргет</button>
                 </li>
               </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-site" role="tabpanel" aria-labelledby="pills-site-tab">
+              <div class="tab-content works-tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active works-tab-pane" id="pills-site" role="tabpanel" aria-labelledby="pills-site-tab">
                   <div class="site-wrapper">
                     <div class="site-content">
                       <p class="site-title">Разработка сайтов <span class="g-text">под ключ:</span></p>
@@ -226,7 +227,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+                <div class="tab-pane fade works-tab-pane" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
                   <div class="design-wrapper">
                     <div class="design-content">
                       <p class="design-title">Разработка сайтов <span class="g-text">под ключ:</span></p>
@@ -267,7 +268,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-context" role="tabpanel" aria-labelledby="pills-context-tab">
+                <div class="tab-pane fade works-tab-pane" id="pills-context" role="tabpanel" aria-labelledby="pills-context-tab">
                   <div class="context-wrapper">
                     <div class="context-content">
                       <p class="context-title">Разработка сайтов <span class="g-text">под ключ:</span></p>
@@ -308,7 +309,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-target" role="tabpanel" aria-labelledby="pills-target-tab">
+                <div class="tab-pane fade works-tab-pane" id="pills-target" role="tabpanel" aria-labelledby="pills-target-tab">
                   <div class="target-wrapper">
                     <div class="target-content">
                       <p class="target-title">Разработка сайтов <span class="g-text">под ключ:</span></p>
@@ -363,8 +364,8 @@
         <div class="col-12">
           <div class="sale-wrapper">
             <div class="sale-conetent">
-              <p class="sale-title"></p>
-              <p class="site-description"></p>
+              <p class="sale-title">Попадите на радары <br/> инвесторов и партнеров</p>
+              <p class="site-description">В результате прохождения обучения мы создадим профили вашей компании на всех международных скаутинговых площадках</p>
               <button class="sale-button button">Оставить заявки</button>
             </div>
             <div class="sale-plates">
