@@ -135,7 +135,7 @@ a{
     font-weight: 700;
     font-size: 36px;
     color: #1178B2;
-    margin-bottom: 110px;
+    margin-bottom: 35px;
 }
 
 .we-top{
@@ -190,7 +190,7 @@ a{
 }
 
 .cards-item{
-    width: 30%;
+    width: 33%;
     box-shadow: 0px 0px 30px rgb(0 0 0 / 9%);
     border-radius: 10px;
     margin-right: 20px;
@@ -492,7 +492,7 @@ a{
 }
 
 .result-cube{
-    max-width: 390px;
+    max-width: 32%;
     max-height: 280px;
     box-shadow: 0px 0px 30px rgb(0 0 0 / 9%);
     border-radius: 10px;
@@ -528,4 +528,211 @@ a{
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
+}
+
+.cost{
+    margin-bottom: 100px;
+}
+
+.cost-title{
+    margin-bottom: 35px;
+}
+
+.cost-content{
+    display: flex;
+}
+
+.cost-card{
+    width: 33%;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.cost-card:last-child{
+    margin-right: 0;
+}
+
+.cost-card-inner{
+    padding: 40px 50px;
+}
+
+.card-head{
+    text-align: center;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.card-head-icon{
+    margin-bottom: 15px;
+}
+
+.card-head-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 35px;
+}
+
+.card-middle{
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.card-middle-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.card-middle-list{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    padding-bottom: 45px;
+}
+
+.card-bottom-poin{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.card-bottom-poin:last-child{
+    border: none;
+}
+
+.point-name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.point-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+.p-color{
+    color: #1178B2;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-bottom{
+    margin-bottom: 20px;
+}
+
+.card-button{
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    text-decoration: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    transition: .3s ease-in-out;
+    border: none;
+    margin: 0 auto;
+    padding: 25px 60px;
+}
+
+.card-button::before{
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 90px;
+    width: 50px;
+    position: absolute;
+    top: -12px;
+    left: -75px;
+    transform: skewX(-45deg);
+}
+
+.card-button:hover{
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    color: #fff;
+    border: none;
+}
+
+.card-button:hover::before{
+    left: 290px;
+    transition: .7s ease-in-out;
+}
+
+.about{
+    margin-bottom: 100px;
+}
+
+.about-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+.about-info-banner{
+    margin-right: 65px;
+}
+
+.top-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.team{
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+.team-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-info{
+    max-width: 620px;
+}
+
+.team-info-text{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.regards{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 45px;
+}
+
+
+.regards span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.gallery-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback{
+    margin-bottom: 100px;
+}
+
+.feedback-slider{
+    display: flex;
+}
+
+.slider-inner{
+    width: 25%;
+    margin-right: 35px;
+    text-align: center;
 }
