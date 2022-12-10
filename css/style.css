@@ -21,7 +21,7 @@ a{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 
 .header-inner{
@@ -382,6 +382,10 @@ a{
     transition: .5s ease-in-out;
 }
 
+.media-active{
+    display: none;
+}
+
 .tile-top{
     display: flex;
     margin-bottom: 30px;
@@ -417,13 +421,14 @@ a{
     display: flex;
 }
 
-
 .sale{
     background-image: url(../img/sale-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 100px;
+    position: relative;
+    z-index: -1;
 }
 
 .sale-wrapper{
@@ -461,6 +466,15 @@ a{
 .sale-plates{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.sale-plates::after{
+    content: url(../img/sale-after.png);
+    top: 32px;
+    right: -20px;
+    position: absolute;
+    z-index: -1;
 }
 
 .plate-item{
@@ -1076,3 +1090,352 @@ a{
     font-size: 14px;
 }
 
+@media (max-width:1200px){
+
+}
+
+@media (max-width:992px){
+    
+}
+
+@media (max-width:768px){
+    
+}
+
+@media (max-width:576px){
+    .container{
+        max-width: 325px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .header-button{
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    .main-wrapper{
+        padding-top: 75px;
+        padding-bottom: 150px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .main-content{
+        min-width: 100%;
+    }
+
+    .main-title{
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .main-text{
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    .subtitle{
+        font-size: 24px;
+        line-height: 80px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .we-top{
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .top-info{
+        margin-right: 0;
+    }
+
+    .pretitle{
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    .top-text, .bottom-text{
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .top-button, .bottom-button{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .top-banner{
+        margin-bottom: 20px;
+    }
+
+    .top-banner-picture, .bottom-banner-picture{
+        width: 100%;
+    }
+
+    .we-bottom{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom-banner{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .cards-inner{
+        flex-direction: column;
+    }
+
+    .cards-item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .item-wrapper{
+        padding: 38px 23px;
+    }
+
+    .item-number{
+        font-size: 64px;
+        line-height: 20px;
+    }
+
+    .item-title{
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .item-text{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .consult-wrapper{
+        padding: 95px 0px;
+    }
+
+    .info-text{
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+
+    .consult-text{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .consult-button{
+        font-size: 16px;
+        line-height: 60px;
+        padding: 0 34px;
+    }
+
+    .works-title{
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .works-tab-lsit{
+        margin-bottom: 20px !important;
+    }
+
+    .works-tab-button.active{
+        font-size: 10px;
+        line-height: 16px;
+        padding: 12px 8px;
+    }
+
+    .works-tab-button{
+        font-size: 10px;
+        line-height: 16px;
+        padding: 12px 8px;
+    }
+
+    .site-wrapper, .design-wrapper, .context-wrapper, .target-wrapper{
+        flex-direction: column;
+        background-position: top center;
+    }
+
+    .site-content, .design-content, .context-content, .target-content{
+        margin-right: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .site-title, .design-title, .context-title, .target-title{
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+        max-width: 160px;
+        margin-bottom: 15px;
+    }
+    
+    .site-text, .design-text, .context-text, .target-text{
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 235px;
+        margin-bottom: 15px;
+    }
+
+    .site-button, .design-button, .context-button, .target-button{
+        display: none;
+    }
+
+    .tile-top{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .tile-card{
+        margin-right: 20px;
+        min-width: 150px;
+        max-height: 135px;
+    }
+
+    .tile-card:last-child{
+        margin-right: 0;
+    }
+
+    .card-inner{
+        padding: 28px 20px;
+    }
+
+    .card-title{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .card-text{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .tile-bottom{
+        margin-bottom: 15px;
+    }
+
+    .media-active{
+        display: block;
+        width: 100%;
+    }
+
+    .sale-wrapper{
+        padding: 99px 0;
+        flex-direction: column;
+    }
+
+    .sale-conetent{
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .sale-title{
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 27px;
+    }
+
+    .site-description{
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 45px;
+    }
+
+    .sale-button{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .plate-item{
+        max-width: 120px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .plate-item-inner{
+        padding: 25px 14px;
+        min-width: 120px;
+    }
+
+    .plate-item-photo{
+        width: 100%;
+    }
+
+    .sale-plates::after{
+        content: none;
+        top: 32px;
+        right: -20px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .result-title{
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .result-content{
+        flex-direction: column;
+    }
+
+    .result-cube{
+        max-width: 100%;
+        max-height: fit-content;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .cube-inner{
+        padding: 34px 43px;
+    }
+
+    .cube-number{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .cube-title{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .cube-description{
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
