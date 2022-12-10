@@ -832,3 +832,247 @@ a{
     left: 290px;
     transition: .7s ease-in-out;
 }
+
+.blog{
+    margin-bottom: 100px;
+}
+
+.blog-content{
+    display: flex;
+    align-items: center;
+}
+
+.blog-item{
+    width: 33%;
+    margin-right: 20px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+}
+
+.blog-tiem-banner{
+    width: 100%;
+}
+
+.blog-bottom-inner{
+    padding: 35px;
+}
+
+.blog-bottom-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.blog-bottom-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 280px;
+    margin-bottom: 35px;
+}
+
+.blog-bottom-date{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.questions{
+    margin-bottom: 20px;
+    background-image: url(../img/sale-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.questions-wrapper{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.questions-info{
+    margin-right: 135px;
+}
+
+.questions-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.questions-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+
+.social-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.social-inner{
+    display: flex;
+    align-items: center;
+}
+
+.telegram, .whatsapp{
+    display: flex;
+    align-items: center;
+}
+
+.telegram{
+    margin-right: 60px;
+}
+
+.telegram-icon, .whatsapp-icon{
+    margin-right: 15px;
+}
+
+.social-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.telegram-icon, .whatsapp-icon{
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.qoestion-order-inner{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 25%);
+}
+
+.questions-form{
+    padding: 25px 45px;
+    min-width: 515px;
+}
+
+.question-form-row{
+    margin-bottom: 30px !important;
+}
+
+.question-form-label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #707070;
+    border: none;
+    border-bottom: 2px solid #E4E4E4;
+}
+
+.form-check{
+    display: flex;
+    align-items: center;
+}
+
+.question-form-check{
+    margin-bottom: 30px !important;
+}
+
+.question-form-checkbox{
+    margin-right: 15px;
+}
+
+.question-form-text{
+    color: #000;
+}
+
+.question-form-button{
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    text-decoration: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    transition: .3s ease-in-out;
+    border: none;
+    padding: 25px 45px;
+}
+
+.question-form-button::before{
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 90px;
+    width: 50px;
+    position: absolute;
+    top: -12px;
+    left: -75px;
+    transform: skewX(-45deg);
+}
+
+.question-form-button:hover{
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    color: #fff;
+    border: none;
+}
+
+.question-form-button:hover::before{
+    left: 290px;
+    transition: .7s ease-in-out;
+}
+
+.footer{
+    background-image: url(../img/footer-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer-logo-icon{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.footer-logo-text{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-menu-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-list-item{
+    margin-right: 50px;
+}
+
+.footer-info{
+    min-width: 215px;
+}
+
+.footer-info-top{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.footer-info-bottom{
+    font-weight: 400;
+    font-size: 14px;
+}
+

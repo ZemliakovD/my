@@ -827,11 +827,15 @@
                 <p class="social-title">Или напишите нам:</p>
                 <div class="social-inner">
                   <div class="telegram">
-                    <img src="img/icon/telegram.png" alt="" class="telegram-icon">
+                    <div class="telegram-icon">
+                      <img src="img/icon/telegram.png" alt="" class="telegram-icon-img">
+                    </div>
                     <p class="social-text">Telegram</p>
                   </div>
                   <div class="whatsapp">
-                    <img src="img/icon/whatsapp.png" alt="" class="whrsapp-icon">
+                    <div class="whatsapp-icon">
+                      <img src="img/icon/whatsapp.png" alt="" class="whrsapp-icon-img">
+                    </div>
                     <p class="social-text">Whatsapp</p>
                   </div>
                 </div>
@@ -840,20 +844,17 @@
             <div class="question-order">
               <div class="qoestion-order-inner">
                 <form class="questions-form">
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <div class="mb-3 question-form-row">
+                    <input type="email" class="form-control question-form-label" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Имя">
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div class="mb-3 question-form-row">
+                    <input type="password" class="form-control question-form-label" id="exampleInputPassword1" placeholder="Телефон">
                   </div>
-                  <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <div class="mb-3 form-check question-form-check">
+                    <input type="checkbox" class="form-check-input question-form-checkbox" id="exampleCheck1">
+                    <label class="form-check-label question-form-text" for="exampleCheck1">Согласен на обработку персональных данных</label>
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary question-form-button">Задать вопрос</button>
                 </form>
               </div>
             </div>
